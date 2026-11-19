@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>PromptStudio</AssemblyName>
+    <ApplicationIcon>PromptStudio.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="规则/*.md" />
+    <EmbeddedResource Include="模板/AiShort.json" />
+    <EmbeddedResource Include="模板/AiShort-LICENSE.txt" />
+    <Resource Include="PromptStudio.ico" />
+  </ItemGroup>
+</Project>
